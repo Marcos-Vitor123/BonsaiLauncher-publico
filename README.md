@@ -1,6 +1,6 @@
 # LlamaChat
 
-Aplicação desktop Windows que roda dois modelos de linguagem lado a lado para gerar e revisar respostas em tempo real.
+Aplicação desktop Windows que roda modelos de linguagem localmente (llama.cpp). Desenvolvido com IA + interação humana mínima no planejamento e comandos.
 
 ![Tela do LlamaChat](./screenshot.png)
 <!-- Substitua por um print real do programa em funcionamento -->
