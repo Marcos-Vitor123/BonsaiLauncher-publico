@@ -26,6 +26,8 @@ cd Privado
 dotnet run
 ```
 
+![Screenshot do LlamaChat](docs/img/Screenshot.png)
+
 ## Estrutura do repositório
 
 ```
