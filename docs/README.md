@@ -1,22 +1,23 @@
 # LlamaChat
 
-Aplicação desktop Windows que roda modelos de linguagem localmente (llama.cpp). Desenvolvido com IA + interação humana mínima no planejamento e comandos.
+Mini projeto experimental de interação com o modelo de linguagem **Bonsai** via interface desktop Windows.
 
-![Tela do LlamaChat](./screenshot.png)
-<!-- Substitua por um print real do programa em funcionamento -->
+Desenvolvido com IA + interação humana mínima no planejamento e comandos.
 
-## Funcionalidades
+## Sobre o modelo
 
-- Dois servidores llama-server gerenciados automaticamente
-- Modelo principal gera respostas criativas
-- Modelo revisor refina e corrige a resposta gerada
-- Interface simples e direta
+O LlamaChat utiliza o modelo **Bonsai-1.7B-Q1_0** (GGUF), um LLM leve executado localmente via [llama.cpp](https://github.com/ggml-org/llama.cpp).
+
+### Referências
+
+- [Repositório oficial do llama.cpp](https://github.com/ggml-org/llama.cpp)
+- [Modelo Bonsai no Hugging Face](https://huggingface.co/Bonsai)
+- [GGUF — formato de modelo do llama.cpp](https://github.com/ggml-org/llama.cpp/blob/master/gguf-py/README.md)
 
 ## Pré-requisitos
 
 - .NET 8 SDK
-- GPU compatível (recomendado) ou CPU
-- Arquivos de modelo no formato GGUF
+- Arquivos de modelo GGUF (não inclusos neste repositório)
 
 ## Como usar
 
@@ -24,8 +25,6 @@ Aplicação desktop Windows que roda modelos de linguagem localmente (llama.cpp)
 cd Privado
 dotnet run
 ```
-
-O programa inicia os servidores, carrega os modelos e libera o chat quando ambos estiverem prontos.
 
 ## Estrutura do repositório
 
